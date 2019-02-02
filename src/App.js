@@ -9,11 +9,9 @@ import NavbarLogin from "./components/navbarLogin";
 import Footer from "./components/footer";
 import Home from "./components/home";
 import AddMoney from "./components/addMoney";
-// import SignIn from "./components/signIn";
 import Login from "./components/login";
 import Pay from "./components/pay";
 import CheckBalance from "./components/checkbalance";
-import Receive from "./components/receive";
 
 class App extends Component {
   constructor(props) {
