@@ -1,10 +1,18 @@
-import React,{Component} from "react";
+import React, { Component } from "react";
 
-export default class Footer extends Component{
+import "../App.css";
+
+const h3Style = {
+  marginBottom: "0px"
+};
+
+export default class Footer extends Component {
   render() {
-    return(
+    return (
       <div className="footer">
-        <h3>Simple Wallet Design</h3>
+        <h3 style={h3Style} style={{ fontFamily: "Lobster, cursive" }}>
+          Simple Wallet Design
+        </h3>
       </div>
     );
   }

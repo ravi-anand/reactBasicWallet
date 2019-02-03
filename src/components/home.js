@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Dollar from "./dollar.png";
 
 import Login from "./login";
-import CheckBalance from "./checkbalance";
 import "../App.css";
 
 export default class Home extends Component {
@@ -21,9 +20,12 @@ export default class Home extends Component {
     return (
       <div className="container-fluid">
         <div className="row ">
-          <div className="col-md-5 offset-md-1">
-            <h1>Cypher Wallet</h1>
-            <p>Basic Wallet UI using React bootstrap123</p>
+          <div className="col-md-5 offset-md-1" style={{ color: "white" }}>
+            <h1 style={{ fontFamily: "Lobster, cursive", paddingTop: "75px" }}>
+              Simple Wallet
+            </h1>
+            <p>Basic Wallet UI using React bootstrap</p>
+            <p>To login use User: admin Password: admin</p>
           </div>
           <div className="col-md-5 offset-md-1 ">
             {this.props.status ? (
@@ -35,28 +37,28 @@ export default class Home extends Component {
         </div>
         <div className="row home serviceList">
           <div className="col-md-4">
-            <div className="app-list">
-              <Link to="/pay" status={this.props.status}>
+            <Link to="/pay" status={this.props.status}>
+              <div className="app-list">
                 <img src={Dollar} alt="" />
                 <h1>Pay</h1>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
           <div className="col-md-4">
-            <div className="app-list">
-              <Link to="/addMoney">
+            <Link to="/addMoney">
+              <div className="app-list">
                 <img src={Dollar} alt="" />
                 <h1>Add Balance</h1>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
           <div className="col-md-4">
-            <div className="app-list">
             <Link to="/checkBalance">
-              <img src={Dollar} alt="" />
-              <h1>Check Balance</h1>
-              </Link>
-            </div>
+              <div className="app-list">
+                <img src={Dollar} alt="" />
+                <h1>Check Balance</h1>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

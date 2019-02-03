@@ -10,8 +10,6 @@ export default class NavbarLogin extends Component {
   }
 
   Logout(e) {
-    // this.props.logoutstatus(false);
-    // sessionStorage.setItem("isLoggedIn", false);
     this.props.logout(false);
   }
 
@@ -23,8 +21,8 @@ export default class NavbarLogin extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand js-scroll-trigger" href="#page-top">
-            Cypher Wallet
+          <a className="navbar-brand js-scroll-trigger" href="#page-top" style={{fontFamily: 'Lobster, cursive'}}>
+            Simple Wallet
           </a>
           <button
             className="navbar-toggler"

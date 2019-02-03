@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 import "../App.css";
 import "./css/input.css";
@@ -11,10 +10,6 @@ const divMargin = {
 };
 
 export default class Pay extends Component {
-
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     if(this.props.status){

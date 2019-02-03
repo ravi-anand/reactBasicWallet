@@ -160,5 +160,5 @@ input:focus ~ .highlight {
   border-radius: 25px;
 }
 .in-background:hover{
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5), 0 10px 24px 0 rgba(0, 0, 0, 0.3);
+box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5), 0 10px 24px 0 rgba(0, 0, 0, 0.3);
 }

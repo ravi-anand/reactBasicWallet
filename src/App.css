@@ -1,4 +1,4 @@
-body{
+body {
   background: transparent;
 }
 
@@ -6,14 +6,14 @@ div {
   color: black;
 }
 
-.baner-padding{
+.baner-padding {
   padding: 10vh;
 }
 .app-margin {
   margin-top: 15px;
 }
 
-.app-list-background{
+.app-list-background {
   background: none;
 }
 .app-list {
@@ -25,24 +25,25 @@ div {
   border-radius: solid black !important;
   color: black !important;
   margin: 15px;
-  padding:  5px;
+  padding: 5px;
 }
 
-.app-list a {
+.col-md-4 a {
   text-decoration: none;
   color: black;
 }
+
 /*  Home style */
-.app-list:hover{
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   border-radius: 25px;
+.app-list:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5), 0 10px 24px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
 }
-.serviceList{
+.serviceList {
   /* padding: 15px; */
   margin-top: 45px;
 }
 /* footer */
-.footer{
+.footer {
   /* position: fixed; */
   bottom: 0;
   left: 0;
@@ -52,11 +53,10 @@ div {
   height: 50px;
   text-align: center;
   color: white;
-
 }
 
 /*  center */
-.center{
+.center {
   text-align: center;
   align-items: center;
 }

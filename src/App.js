@@ -101,9 +101,9 @@ class App extends Component {
                   <Route path="/addMoney" render={props => <AddMoney status={this.state.status} />}/>
                 </Switch>
               </div>
+              </div>
+              </div>
               <Footer />
-            </div>
-          </div>
         </div>
       </Router>
     );
